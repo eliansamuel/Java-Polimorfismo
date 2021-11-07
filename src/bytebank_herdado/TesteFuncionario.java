@@ -1,9 +1,5 @@
 package bytebank_herdado;
 
-/**
- * @author elian
- *
- */
 public class TesteFuncionario {
 	
 	public static void main(String[] args) {
