@@ -7,14 +7,14 @@ public class Conta {
     private int numero;
     private Cliente titular;
     private static int total = 0;
-
+    
     public Conta(int agencia, int numero){
         Conta.total++;
-        System.out.println("O total de contas é " + Conta.total);
+        // System.out.println("O total de contas é " + Conta.total);
         this.agencia = agencia;
         this.numero = numero;
-        this.saldo = 100;
-        System.out.println("Estou criando uma conta " + this.numero);
+        // this.saldo = 100;
+        // System.out.println("Estou criando uma conta " + this.numero);
     }
 
     public void deposita(double valor) {
