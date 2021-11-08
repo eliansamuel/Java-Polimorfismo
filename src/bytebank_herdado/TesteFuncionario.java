@@ -14,5 +14,6 @@ public class TesteFuncionario {
 				+ " terá uma bonificação de R$ "
 				+ funcionario1.getBonificacao());
 		
+		
 	}
 }
